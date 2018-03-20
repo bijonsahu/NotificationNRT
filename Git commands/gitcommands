@@ -1,0 +1,29 @@
+# remove a directory from git but keep it locally 
+git rm -r --cached FolderName
+git commit -m "Removed folder from repository"
+git push origin master
+
+# get local copy of git
+git init 
+
+#push local copy to remote
+git add . (adds all new files)
+git commit -m "comment" (commits files)
+git remote add origin https://github.com/username/new_repo
+git push -u origin master
+
+***
+git add adds your modified files to the queue to be committed later. Files are not committed
+git commit commits the files that have been added and creates a new revision with a log... If you do not add any files, git will not commit anything. You can combine both actions with git commit -a
+git push pushes your changes to the remote repository.
+***
+
+#get status wrt remote git 
+git status
+
+#pull remote changes 
+git fetch origin (tracks changes)
+git pull (pull actual data)
+
+#push changes
+git push origin master
