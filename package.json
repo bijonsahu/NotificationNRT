@@ -1,0 +1,25 @@
+{
+  "name": "nightchanges",
+  "version": "1.0.0",
+  "description": "Personal app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "heroku",
+    "npm",
+    "node",
+    "express",
+    "html",
+    "javascript",
+    "handlerbar",
+    "css"
+  ],
+  "author": "Anuraj Pareek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
