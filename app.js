@@ -8,6 +8,7 @@ var sassMiddleware = require('node-sass-middleware');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var dotaRouter = require('./routes/dota2');
+var dotaRouter1 = require('./routes/dota1');
 
 var app = express();
 
@@ -44,7 +45,7 @@ app.route('/book')
     res.send('Update the book')
   });
  
-app.route('/test').get(indexRouter);  
+app.get('/dota234', dotaRouter1.index);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
