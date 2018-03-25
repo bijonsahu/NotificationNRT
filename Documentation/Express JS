@@ -2,3 +2,8 @@ Routing: https://github.com/expressjs/express-resource
 Basics of Express : https://expressjs.com/en/starter/hello-world.html 
 
 Then it will be doing Sails JS for end to end and loopback to include database 
+
+To start in debug mode: DEBUG=express:* node ./bin/www
+i.e. set debug mode: DEBUG as end variable. 
+
+https://expressjs.com/en/advanced/best-practice-performance.html
